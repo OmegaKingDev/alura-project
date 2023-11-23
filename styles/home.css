@@ -1,0 +1,36 @@
+
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4fD;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+ }
+ 
+
+
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+
+.imagem{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+
+
+
+.boneco{
+    border: 1px solid var(--cor-terciaria);
+    padding: 3%;
+    border-radius: 50%;
+    border-width: 10px;
+}
+
+.boneco:hover{
+    border: 1px dotted var(--cor-terciaria);
+    border-width: 10px;
+}
